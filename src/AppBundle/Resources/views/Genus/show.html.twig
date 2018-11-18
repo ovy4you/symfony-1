@@ -1,0 +1,8 @@
+{% extends "base.html.twig" %}
+
+{% block title %}AppBundl {{ name }}{% endblock %}
+
+{% block body %}
+    <a href="{{ path('app_genus_get_show',{'genusName':name}) }}">link</a>
+<h1>{{ name }}</h1>
+{% endblock %}
